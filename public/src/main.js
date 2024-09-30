@@ -66,7 +66,7 @@ $(function() {
 
 function restartMorse() {
     morsePlayer.stopMorse();
-    setTimeout(morsePlayer.playMorse.bind(morsePlayer, $('#textOutput').html()), 100);
+    setTimeout(morsePlayer.playMorse.bind(morsePlayer, $('#textOutput').html()), 500);
 }
 
 function checkForSamples() {
