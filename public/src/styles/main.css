@@ -1,0 +1,20 @@
+textarea:disabled {
+    background-color: #f5f5f586 !important;
+    color: #a0a0a0 !important;
+}
+
+textarea {
+    resize: none !important;
+    background-color: white !important;
+    color: black !important;
+}
+
+textarea::placeholder {
+    color: #ffffff !important;
+    font-style: italic;
+}
+
+#textOutput {
+    font-size: xx-large !important;
+    height: 100px !important;
+}
